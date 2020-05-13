@@ -1,10 +1,12 @@
 body {
-  background-color: lightblue;
-}
+   background-image:  url("Picture_Video/tree.jpg"), url("Picture_Video/night_sky.jpg");
+   background-color: #cccccc;
+  }
 
 h1 {
   color: white;
-  text-align: center;
+  text-align: right;
+  padding-right: 300px;
 }
 
 h2{
@@ -15,7 +17,8 @@ h2{
 p {
   font-family: verdana;
   font-size: 20px;
-  text-align: center;
+  text-align: right;
+  padding-right: 300px;
 }
 
 img{
@@ -28,38 +31,106 @@ video{
 }
 
 iframe{
-   width: 640px;
-   height: 480px;
+   position: absolute;top: 32.66%; left: 10px;
+   width: 35%;
+   height: 40%;
+   frameborder: hidden;
+   background-color: lightblue;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: black;
+.navbar {
+    overflow: hidden;
+    background-color: #001011;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav a {
-  float: left;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.topnav a.active {
-  background-color: green;
-  color: white;
+.dropdown {
+    float: left;
+    overflow: hidden;
 }
 
-.vertical-menu a {
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8BD7D2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.boxed-headline{
+  margin-top: 20px;
+  border: 4px solid #cccc ;
+  width: 98,7%;
+  height: 60px;
   background-color: white;
-  color: black;
-  display: block;
-  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 45px;
+}
+
+.boxed-iframe {
+
+}
+
+.boxed-text-right {
+  position: absolute;top: 30%; right: 10px;
+  margin-top: 20px;
+  border: 4px solid #cccc ;
+  width: 60%;
+  height: 39.6%;
+  background-color: #8BBEB2;
   text-decoration: none;
 }
 
-
-.vertical-menu a.active {
-  background-color: green;
-  color: white;
+.boxed-bottom{
+  position: absolute;bottom: 3%;
+  border: 4px solid #cccc ;
+  width: 98.2%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
 }
