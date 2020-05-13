@@ -1,12 +1,17 @@
 body {
    background-image:  url("Picture_Video/tree.jpg"), url("Picture_Video/night_sky.jpg");
+   background-position: 50% 0;
    background-color: #cccccc;
   }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
-  color: white;
-  text-align: right;
-  padding-right: 300px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
 }
 
 h2{
@@ -17,17 +22,14 @@ h2{
 p {
   font-family: verdana;
   font-size: 20px;
-  text-align: right;
-  padding-right: 300px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 img{
-  width: 200px;
-}
-
-video{
-  width: 320px;
-  height:240px;
+  position: absolute;top: 32.66%; left: 10px;
+  width: 35%;
+  border: 4px solid #DCFEFE;
 }
 
 iframe{
@@ -35,7 +37,23 @@ iframe{
    width: 35%;
    height: 40%;
    frameborder: hidden;
-   background-color: lightblue;
+   background-color: #E1F0F5;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 .navbar {
@@ -76,7 +94,7 @@ iframe{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #8BD7D2;
+    background-color: #E1F0F5;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -100,37 +118,37 @@ iframe{
 }
 
 .boxed-headline{
-  margin-top: 20px;
-  border: 4px solid #cccc ;
+  font-family: verdana;
+  color: white;
+  margin-top: 40px;
+  border: 4px solid #DCFEFE;
   width: 98,7%;
   height: 60px;
-  background-color: white;
+  background-color: #001011;
   text-align: center;
   text-decoration: none;
   font-size: 45px;
 }
 
-.boxed-iframe {
-
-}
-
 .boxed-text-right {
+  font-family: verdana;
   position: absolute;top: 30%; right: 10px;
   margin-top: 20px;
   border: 4px solid #cccc ;
   width: 60%;
-  height: 39.6%;
-  background-color: #8BBEB2;
+  height: 40%;
+  background-color: #E1F0F5;
   text-decoration: none;
 }
 
 .boxed-bottom{
-  position: absolute;bottom: 3%;
-  border: 4px solid #cccc ;
+  font-family: verdana;
+  color: white;
+  position: absolute;bottom: 0%;
   width: 98.2%;
   height: 50px;
-  background-color: white;
+  background-color: black;
   text-align: center;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
 }
